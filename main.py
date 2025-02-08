@@ -1,6 +1,2 @@
-word = "chicken"
-print(len(word))
-# 7
-
-print(len("dreams come through to those who truly want them"))
-# 48
+name = input("What is your name?? ")
+print("Hello " + name[0].upper() + name[1:])
