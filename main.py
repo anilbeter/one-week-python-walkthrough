@@ -1,3 +1,5 @@
-print("Anil " + "Beter")  # Anil Beter
-print("ha" * 10)  # hahahahahahahahahaha
-# print(10 + "2")  => TypeError: unsupported operand type(s) for +: 'int' and 'str'
+msg = "Hello world!"
+print(msg[0])  # H
+print(msg[1])  # e
+print(msg[-1])  # !
+print(msg[-2])  # d
