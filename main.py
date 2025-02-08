@@ -1,21 +1,18 @@
-print(12)  # 12
-print(12 == "12")  # False
-print(type(23))  # int
-print(type("Anil"))  # str
-print(type("Anil") == str)  # True
-print(type(1.243))  # float
+score = 500
+print(score)  # 500
+score *= 3
+print(score)  # 1500
+score = 37
+print(score)  # 37
+score = score + 1
+print(score)  # 38
 
-print(1_000)  # 1000
-print(0.8)  # 0.8
-print(1_000.55)  # 1000.55
-print(101414329432458534543.0000)  # 1.0141432943245853e+20
 
-print(1 + 4)  # 3
-print(4 - 1.0)  # 3.0
-print(1 / 3)  # 0.33333
-print(6 * 3 - 10)  # 8
+player_1 = 0
+player_one = 0
+PI = 3.14159
 
-print(2**4)  # 16
-print(10 // 3)  # 3
-print(-10 // 3)  # - 4
-print(11 % 5)  # 1
+
+age = 23
+age += 1
+print(age)
