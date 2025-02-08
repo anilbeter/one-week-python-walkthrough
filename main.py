@@ -15,4 +15,12 @@ PI = 3.14159
 
 age = 23
 age += 1
-print(age)
+print(age)  # 24
+age //= 2
+print(age)  # 12
+age *= 2
+print(age)  # 24
+
+num = 2
+num **= 3
+print(num)  # 8
