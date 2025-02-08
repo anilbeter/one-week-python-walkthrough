@@ -1,5 +1,7 @@
-msg = "Hello world!"
-print(msg[0])  # H
-print(msg[1])  # e
-print(msg[-1])  # !
-print(msg[-2])  # d
+user = None
+print(user)  # None
+if user:
+    print("There is an user!")
+else:
+    print("There isn't any user...")
+# There isn't any user...
