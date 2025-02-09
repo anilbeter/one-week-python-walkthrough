@@ -1,9 +1,4 @@
-price = "$59.72"
-print(price.find("9"))
-# 2
-
-print("anil".find("h"))
-# -1
-
-print("anil beter".count("e"))
-# 2
+email = "     aNiL.hehE@gmaIl.coM   "
+correct_email = email.strip().lower()
+print(correct_email)
+# anil.hehe@gmail.com
