@@ -1,15 +1,11 @@
-msg = "    anil             "
-print(msg.strip())
-# anil
-msg_with_dots = "......anil........"
-print(msg_with_dots.strip("."))
-# anil
-print(msg_with_dots.lstrip("."))
-# anil........
-print(msg_with_dots.rstrip("."))
-# ......anil
+fullname = "anil beter"
+capitalized_fullname = fullname.replace("a", "A").replace("b", "B")
+print(capitalized_fullname)
+# Anil Beter
 
-number = "#4069850485"
-number_without_hash = number.strip("#")
-print(number_without_hash)
-# 4069850485
+experimentel_replace = capitalized_fullname.replace("e", "E")
+print(experimentel_replace)
+# Anil BEtEr
+
+print("anil beter".replace("e", "E", 1))
+# anil bEter
