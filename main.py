@@ -1,11 +1,9 @@
-fullname = "anil beter"
-capitalized_fullname = fullname.replace("a", "A").replace("b", "B")
-print(capitalized_fullname)
-# Anil Beter
+price = "$59.72"
+print(price.find("9"))
+# 2
 
-experimentel_replace = capitalized_fullname.replace("e", "E")
-print(experimentel_replace)
-# Anil BEtEr
+print("anil".find("h"))
+# -1
 
-print("anil beter".replace("e", "E", 1))
-# anil bEter
+print("anil beter".count("e"))
+# 2
