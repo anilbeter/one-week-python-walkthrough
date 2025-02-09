@@ -1,7 +1,15 @@
-msg = "hello world"
-print(msg.capitalize())
-# Hello world
-print(msg.upper())
-# HELLO WORLD
-print("ANIL".lower())
+msg = "    anil             "
+print(msg.strip())
 # anil
+msg_with_dots = "......anil........"
+print(msg_with_dots.strip("."))
+# anil
+print(msg_with_dots.lstrip("."))
+# anil........
+print(msg_with_dots.rstrip("."))
+# ......anil
+
+number = "#4069850485"
+number_without_hash = number.strip("#")
+print(number_without_hash)
+# 4069850485
